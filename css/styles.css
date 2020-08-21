@@ -22,8 +22,7 @@ body {
 
 
 .main {
-    content: center;
-    max-width: 800px;
+    max-width: 900px;
     margin: auto;
 }
 
@@ -33,38 +32,28 @@ body {
 ======================================== */
 
 .gallery {
-    margin: auto;
     display: grid;
-    grid-template-columns: repeat(4, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-template-rows: repeat(3, 200px);
     grid-gap: 30px;
 }
 
-/* ===================================== 
-   Images
-======================================== */
-/* 
-img {
-    width: 200px;
-    height: 200px;
-    object-fit: cover;
-  } */
 
 /* ===================================== 
     Search List
 ======================================== */
 
 
-#myInput {
+#search {
     display: block;
     margin: 0 auto;
     width:150px;
     /* background-image: url('/css/searchicon.png'); Add a search icon to input */
     background-position: 10px 12px; /* Position the search icon */
     background-repeat: no-repeat; /* Do not repeat the icon image */
-    width: 60%; /* Full-width */
+    width: 48%; /* Full-width */
     font-size: 16px; /* Increase font-size */
-    padding: 12px 20px 12px 60px; /* Add some padding */
+    padding: 12px 20px 12px 20px; /* Add some padding */
     border: 1px solid #ddd; /* Add a grey border */
     margin-bottom: 30px; /* Add some space below the input */
   

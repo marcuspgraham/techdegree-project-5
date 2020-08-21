@@ -17,27 +17,28 @@
 
 <div class="main">
 
-<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+<input type="search" name="search" id="search" onkeyup="myFunction()" placeholder="Search">
+
 
 <ul id="myUL">
-<li><a href="#haybales">Hay Bales</a></li>
-<li><a href="#lake">Lake</a></li>
-<li><a href="#canyon">Canyon</a></li>
-<li><a href="#iceberg">Iceberg</a></li>
-<li><a href="#desert">Desert</a></li>
-<li><a href="#fall">Fall</a></li>
-<li><a href="#plantation">Plantation</a></li>
-<li><a href="#dunes">Dunes</a></li>
-<li><a href="#countrysidelane">Countryside Lane</a></li>
-<li><a href="#sunset">Sunset</a></li>
-<li><a href="#cave">Cave</a></li>
-<li><a href="#bluebells">Bluebells</a></li>
+<li><a>Hay Bales</a></li>
+<li><a>Lake</a></li>
+<li><a>Canyon</a></li>
+<li><a>Iceberg</a></li>
+<li><a>Desert</a></li>
+<li><a>Fall</a></li>
+<li><a>Plantation</a></li>
+<li><a>Dunes</a></li>
+<li><a>Countryside Lane</a></li>
+<li><a>Sunset</a></li>
+<li><a>Cave</a></li>
+<li><a>Bluebells</a></li>
 </ul>  
 
 <script>
     function myFunction() {
         var input, filter, ul, li, a, i, txtValue;
-        input = document.getElementById("myInput");
+        input = document.getElementById("search");
         filter = input.value.toUpperCase();
         ul = document.getElementById("myUL");
         li = ul.getElementsByTagName("li");
@@ -52,8 +53,6 @@
         }
     }
 </script>
-
-
 
 <div class="gallery">
 
