@@ -3,8 +3,6 @@
 function filter() {
     
     //Declare a variable that will get my images
-    var filterValue, filter, ul, li, a, i, txtValue;
-
     let input = document.getElementById('search');
     let filterValue = input.value.toUppercase();
     let ul = document.getElementById('myUL');
