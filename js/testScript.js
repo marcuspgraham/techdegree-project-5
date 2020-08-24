@@ -4,7 +4,7 @@ function filter() {
     
     //Declare a variable that will get my images
     let input = document.getElementById('search');
-    let filterValue = input.value.toUppercase();
+    let filterValue = input.value.toUpperCase();
     let ul = document.getElementById('myUL');
     let li = ul.getElementsByTagName('li');
 
