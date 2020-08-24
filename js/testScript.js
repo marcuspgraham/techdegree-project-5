@@ -73,10 +73,10 @@
 function filter() {
     
     //Variables
-    var filterValue, none, data-caption, toLowerCase, keyup, keyEvent, getAttribute, display, searchEvent, querySelectorAll, links, style, querySelector, value, target, search;
+    var filterValue, none, title, toLowerCase, keyup, keyEvent, getAttribute, display, searchEvent, querySelectorAll, links, style, querySelector, value, target, search;
 
     input = document.getElementById('search');
-    filterValue = input.value.toUppercase();
+    let filterValue = input.value.toUppercase();
     ul = document.getElementById('myUL');
     li = ul.getElementsByTagName('li');
 
